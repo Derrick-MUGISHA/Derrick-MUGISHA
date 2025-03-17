@@ -1,42 +1,99 @@
-<h1 align="center">Hi 👋, I'm Derrick-MUGISHA</h1>
-<h3 align="center">As a full-stack developer from Rwanda, I'm driven by a passion to build and innovate in the tech world. I specialize in crafting scalable, efficient, and impactful digital solutions that address real-world problems. By leveraging modern technologies, I aim to contribute to the digital transformation of industries, driving progress and efficiency through code.</h3>
+<h1 align="center">Hi 👋, I'm Derrick MUGISHA</h1>
+<h3 align="center">Full-Stack Developer | Tech Innovator | Problem Solver</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=derrick-mugisha&label=Profile%20views&color=0e75b6&style=flat" alt="derrick-mugisha" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha" alt="derrick-mugisha" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
-
-- 🔭 The Gender based violence (GBV) [Gender-based violence is of critical concern in Africa today, with survivors failing to report reports because of fear, stigmatization, and lack of reporting systems.](https://gbv-98rw.onrender.com/)
-
-- 🌱 I’m currently learning **Java, JavaScript and Database and Mobile Development**
-
-- 👯 I’m looking to collaborate on [This project fro the Backend and little Frontend](https://gbv-98rw.onrender.com/)
-
-- 🤝 I’m looking for help with **Database and Authentication**
-
-- 👨‍💻 All of my projects are available at [https://github.com/Derrick-MUGISHA](https://github.com/Derrick-MUGISHA)
-
-- 💬 Ask me about **Frontend Frameworks and deb-urging**
-
-- 📫 How to reach me **derrickmugisha168@gmail.com**
-
-- 📄 Know about my experiences [With a solid background as a full-stack developer, I have hands-on experience in designing, building, and optimizing web applications and software solutions. Over the years, I've developed a deep understanding of both front-end and back-end technologies, allowing me to create seamless user experiences while ensuring efficient, scalable server-side systems. Front-End Development: HTML, CSS, JavaScript: Expertise in crafting responsive, user-friendly interfaces, ensuring accessibility and cross-browser compatibility. Frameworks & Libraries: Proficient in React, Angular, and Vue.js, building dynamic, interactive UIs with state management and component-driven architecture. Design & UX: Knowledge of design principles, utilizing tools like Figma and Adobe XD to collaborate on user-centric design. Back-End Development: Server-Side Languages: Proficient in Node.js, Python, and Java, with a strong understanding of RESTful APIs and building robust backend services. Databases: Experience with relational (MySQL, PostgreSQL) and NoSQL databases (MongoDB), focusing on performance optimization and data modeling. Authentication & Security: Implementing secure authentication (OAuth, JWT) and best practices for data protection and privacy. DevOps & Cloud: Version Control: Extensive experience using Git and GitHub for source control and collaborative development. Deployment & Cloud: Familiarity with deploying applications on cloud platforms like AWS, Azure, and Google Cloud, using containerization tools like Docker. CI/CD Pipelines: Implementing continuous integration and delivery pipelines for automated testing and deployment workflows. Projects & Impact: Throughout my career, I've worked on projects ranging from e-commerce platforms and social applications to enterprise systems, delivering end-to-end solutions that drive business value and user satisfaction. I am committed to staying updated with the latest technologies and industry best practices, constantly evolving my skills to meet the challenges of the digital world.]
-
-- ⚡ Fun fact **I also make music as a relaxing period**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/mugisha-derrick-479788332/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/mugisha-derrick-479788332/" height="30" width="40" /></a>
-<a href="https://fb.com/https://www.facebook.com/derrick.mugisha.12" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/derrick.mugisha.12" height="30" width="40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/d.e.r.r.1.c.k?igsh=zhywztg3m3q2ndjs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/d.e.r.r.1.c.k?igsh=zhywztg3m3q2ndjs" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://github.com/Derrick-MUGISHA">
+    <img src="https://komarev.com/ghpvc/?username=derrick-mugisha&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  </a>
+  <a href="https://github.com/Derrick-MUGISHA?tab=repositories">
+    <img src="https://img.shields.io/badge/Projects-10+-brightgreen" alt="Projects" />
+  </a>
+  <a href="https://www.linkedin.com/in/mugisha-derrick-479788332/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn" />
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=derrick-mugisha&show_icons=true&locale=en&layout=compact" alt="derrick-mugisha" /></p>
+### 🚀 About Me
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&locale=en" alt="derrick-mugisha" /></p>
+I'm a passionate **full-stack developer** from **Rwanda** with a mission to build scalable, efficient, and impactful digital solutions. My expertise lies in crafting seamless user experiences and robust backend systems that solve real-world problems. I thrive on leveraging modern technologies to drive digital transformation and innovation across industries.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=derrick-mugisha&" alt="derrick-mugisha" /></p>
+---
+
+### 🔥 Featured Project
+
+#### **Gender-Based Violence (GBV) Reporting Platform**
+- **Description**: A platform designed to address the critical issue of gender-based violence in Africa. It provides a safe and anonymous way for survivors to report incidents, overcoming barriers like fear, stigmatization, and lack of reporting systems.
+- **Tech Stack**: React, Node.js, MongoDB, Express, Firebase
+- **Live Demo**: [GBV Platform](https://gbv-98rw.onrender.com/)
+- **GitHub Repo**: [GBV Project](https://github.com/Derrick-MUGISHA/GBV-Project)
+
+---
+
+### 🛠️ Tech Stack
+
+#### **Frontend Development**
+- **Languages**: HTML, CSS, JavaScript, TypeScript
+- **Frameworks**: React, Angular, Vue.js
+- **Tools**: Figma, Adobe XD, TailwindCSS
+
+#### **Backend Development**
+- **Languages**: Node.js, Python, Java
+- **Frameworks**: Express, Flask, Spring Boot
+- **Databases**: MySQL, PostgreSQL, MongoDB
+- **Authentication**: OAuth, JWT
+
+#### **DevOps & Cloud**
+- **Cloud Platforms**: AWS, Google Cloud, Azure
+- **Containerization**: Docker, Kubernetes
+- **CI/CD**: GitHub Actions, Jenkins
+
+#### **Mobile Development**
+- **Frameworks**: Flutter, React Native
+
+---
+
+### 🌱 Currently Learning
+- Advanced Java and Spring Boot
+- Mobile Development with Flutter
+- Database Optimization and Scaling
+- Authentication and Security Best Practices
+
+---
+
+### 🤝 Collaboration Opportunities
+I'm actively looking to collaborate on projects that solve real-world problems, especially those focused on social impact, education, and healthcare. If you're working on something exciting, feel free to reach out!
+
+---
+
+### 📫 How to Reach Me
+- **Email**: [derrickmugisha168@gmail.com](mailto:derrickmugisha168@gmail.com)
+- **LinkedIn**: [Mugisha Derrick](https://www.linkedin.com/in/mugisha-derrick-479788332/)
+- **GitHub**: [Derrick-MUGISHA](https://github.com/Derrick-MUGISHA)
+- **Instagram**: [@d.e.r.r.1.c.k](https://www.instagram.com/d.e.r.r.1.c.k?igsh=zhywztg3m3q2ndjs)
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=derrick-mugisha&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=derrick-mugisha&theme=radical" alt="GitHub Streak" />
+</p>
+
+---
+
+### ⚡ Fun Fact
+When I'm not coding, I love making music! It's my way of relaxing and staying creative.
+
+---
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />
+</p>
+
+---

@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://your-portfolio-website.com" target="_blank">
-    <img src="https://your-banner-image-link.com/banner.jpg" alt="Derrick Mugisha Portfolio Banner" style="max-width: 100%; height: auto;" />
+  <a href="[https://your-portfolio-website.com](https://derrickmugisha.vercel.app/)" target="_blank">
+    <img src="[https://your-banner-image-link.com/banner.jpg](https://res.cloudinary.com/dvl1iht4u/image/upload/v1752015956/Screenshot_2025-07-09_010404_sqcu7s.png)" alt="Derrick Mugisha Portfolio Banner" style="max-width: 100%; height: auto;" />
   </a>
 </p>
 

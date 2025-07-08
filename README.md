@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://your-portfolio-website.com" target="_blank">
+    <img src="https://your-banner-image-link.com/banner.jpg" alt="Derrick Mugisha Portfolio Banner" style="max-width: 100%; height: auto;" />
+  </a>
+</p>
+
 <h1 align="center">👋 Hi, I'm Derrick MUGISHA</h1>
 <h3 align="center">🚀 Full-Stack Developer | 🌍 Tech Innovator | 🛠️ Problem Solver</h3>
 
@@ -24,15 +30,15 @@ I'm a passionate **full-stack developer** from **Rwanda** with a mission to buil
 
 ---
 
-### 🔥 Featured Project & personal protfolio
+### 🔥 Featured Projects & Personal Portfolio
 
 #### **Discover Rwanda**
-- **Description**: A platform designed to inhence the tourism attraction a great and reliable soultion of all the services into on grouped system.
-- **Tech Stack**: React, Node.js, MongoDB, Express, Firebase, spoost trap,
-  
-#### **Vidaripay website**
-- **Description**: A platform designed to easy payments and the money trunsfer around africa and the globe.
-- **Tech Stack**: React, Node.js, Postgress
+- **Description**: A platform designed to enhance tourism by providing a centralized system for all related services.
+- **Tech Stack**: React, Node.js, MongoDB, Express, Firebase, Bootstrap
+
+#### **Vidaripay Website**
+- **Description**: A seamless and secure payment and money transfer solution for Africa and beyond.
+- **Tech Stack**: React, Node.js, PostgreSQL
 
 ---
 
@@ -73,14 +79,16 @@ I'm a passionate **full-stack developer** from **Rwanda** with a mission to buil
 ---
 
 ### 🌱 Currently Learning
-- Advanced Java and Spring Boot
-- Mobile Development with Flutter
-- Database Optimization and Scaling
-- Authentication and Security Best Practices
+
+- Advanced Java and Spring Boot  
+- Mobile Development with Flutter  
+- Database Optimization and Scaling  
+- Authentication and Security Best Practices  
 
 ---
 
 ### 🤝 Collaboration Opportunities
+
 I'm actively looking to collaborate on projects that solve real-world problems, especially those focused on social impact, education, and healthcare. If you're working on something exciting, feel free to reach out!
 
 ---
@@ -115,6 +123,7 @@ I'm actively looking to collaborate on projects that solve real-world problems, 
 ---
 
 ### ⚡ Fun Fact
+
 When I'm not coding, I love making music! It's my way of relaxing and staying creative.
 
 ---
@@ -124,5 +133,3 @@ When I'm not coding, I love making music! It's my way of relaxing and staying cr
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />
 </p>
-
----

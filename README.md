@@ -24,13 +24,15 @@ I'm a passionate **full-stack developer** from **Rwanda** with a mission to buil
 
 ---
 
-### 🔥 Featured Project
+### 🔥 Featured Project & personal protfolio
 
-#### **Gender-Based Violence (GBV) Reporting Platform**
-- **Description**: A platform designed to address the critical issue of gender-based violence in Africa. It provides a safe and anonymous way for survivors to report incidents, overcoming barriers like fear, stigmatization, and lack of reporting systems.
-- **Tech Stack**: React, Node.js, MongoDB, Express, Firebase
-- **Live Demo**: [GBV Platform](https://gbv-98rw.onrender.com/)
-- **GitHub Repo**: [GBV Project](https://github.com/Derrick-MUGISHA/GBV-Project)
+#### **Discover Rwanda**
+- **Description**: A platform designed to inhence the tourism attraction a great and reliable soultion of all the services into on grouped system.
+- **Tech Stack**: React, Node.js, MongoDB, Express, Firebase, spoost trap,
+  
+#### **Vidaripay website**
+- **Description**: A platform designed to easy payments and the money trunsfer around africa and the globe.
+- **Tech Stack**: React, Node.js, Postgress
 
 ---
 

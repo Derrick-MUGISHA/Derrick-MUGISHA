@@ -1,16 +1,5 @@
 <h1 align="center">👋 Hi, I'm Derrick MUGISHA</h1>
 <h3 align="center">🚀 Full-Stack Developer | 🌍 Tech Innovator | 🛠️ Problem Solver</h3>
----
-
-<p align="center">
-  <a href="https://derrickmugisha.vercel.app/" target="_blank">
-    <img src="https://res.cloudinary.com/dvl1iht4u/image/upload/v1752015956/Screenshot_2025-07-09_010404_sqcu7s.png" 
-         alt="Derrick Mugisha Portfolio Banner" 
-         style="max-width: 100%; height: auto;" />
-  </a>
-</p>
-
----
 
 <p align="center">
   <a href="https://github.com/Derrick-MUGISHA">
@@ -24,6 +13,16 @@
   </a>
   <a href="mailto:derrickmugisha168@gmail.com">
     <img src="https://img.shields.io/badge/Email-Reach%20Out-red?style=flat&logo=gmail" alt="Email" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <a href="https://derrickmugisha.vercel.app/" target="_blank">
+    <img src="https://res.cloudinary.com/dvl1iht4u/image/upload/v1752015956/Screenshot_2025-07-09_010404_sqcu7s.png" 
+         alt="Derrick Mugisha Portfolio Banner" 
+         style="max-width: 100%; height: auto;" />
   </a>
 </p>
 

@@ -1,3 +1,7 @@
+<h1 align="center">👋 Hi, I'm Derrick MUGISHA</h1>
+<h3 align="center">🚀 Full-Stack Developer | 🌍 Tech Innovator | 🛠️ Problem Solver</h3>
+---
+
 <p align="center">
   <a href="https://derrickmugisha.vercel.app/" target="_blank">
     <img src="https://res.cloudinary.com/dvl1iht4u/image/upload/v1752015956/Screenshot_2025-07-09_010404_sqcu7s.png" 
@@ -6,9 +10,7 @@
   </a>
 </p>
 
-
-<h1 align="center">👋 Hi, I'm Derrick MUGISHA</h1>
-<h3 align="center">🚀 Full-Stack Developer | 🌍 Tech Innovator | 🛠️ Problem Solver</h3>
+---
 
 <p align="center">
   <a href="https://github.com/Derrick-MUGISHA">

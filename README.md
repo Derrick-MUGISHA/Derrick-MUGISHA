@@ -1,5 +1,5 @@
-<h1 align="center">👋 Hi, I'm Derrick MUGISHA</h1>
-<h3 align="center">🚀 Full-Stack Developer | 🌍 Tech Innovator | 🛠️ Problem Solver</h3>
+<h1 align="center">   Hi, I'm Derrick MUGISHA</h1>
+<h3 align="center">   Full-Stack Developer |  Tech Innovator |  Problem Solver</h3>
 
 <p align="center">
   <a href="https://github.com/Derrick-MUGISHA">
@@ -26,27 +26,21 @@
   </a> -->
 </p>
 
----
+###  About Me
 
-### 🚀 About Me
+I'm a passionate Full-Stack Developer from Rwanda, dedicated to building scalable, efficient, and impactful digital solutions.
+I specialize in creating seamless user experiences and robust backend systems that solve real-world challenges.
 
-I'm a passionate **full-stack developer** from **Rwanda** with a mission to build scalable, efficient, and impactful digital solutions. My expertise lies in crafting seamless user experiences and robust backend systems that solve real-world problems. I thrive on leveraging modern technologies to drive digital transformation and innovation across industries.
+I’m driven by innovation and love turning ideas into practical products through modern technologies, clean code, and creative problem-solving.
 
----
+###  Location: Rwanda
 
-### 🔥 Featured Projects & Personal Portfolio
+Focus Areas: Full-Stack Development, Web Apps, API Design, and UI/UX Integration
+Tech Stack: React, Next.js, TypeScript, Node.js, Express, Firebase, MongoDB, and more
+Goal: To contribute to open-source projects and build tools that make a difference
 
-#### **Discover Rwanda**
-- **Description**: A platform designed to enhance tourism by providing a centralized system for all related services.
-- **Tech Stack**: React, Node.js, MongoDB, Express, Firebase, Bootstrap
 
-#### **Vidaripay Website**
-- **Description**: A seamless and secure payment and money transfer solution for Africa and beyond.
-- **Tech Stack**: React, Node.js, PostgreSQL
-
----
-
-### 🛠️ Tech Stack
+###  Tech Stack
 
 #### **Frontend Development**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -80,24 +74,24 @@ I'm a passionate **full-stack developer** from **Rwanda** with a mission to buil
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
----
 
-### 🌱 Currently Learning
+
+###  Currently Learning
 
 - Advanced Java and Spring Boot  
 - Mobile Development with Flutter  
 - Database Optimization and Scaling  
 - Authentication and Security Best Practices  
 
----
 
-### 🤝 Collaboration Opportunities
+
+###  Collaboration Opportunities
 
 I'm actively looking to collaborate on projects that solve real-world problems, especially those focused on social impact, education, and healthcare. If you're working on something exciting, feel free to reach out!
 
----
 
-### 📫 How to Reach Me
+
+###  How to Reach Me
 
 <p align="left">
   <a href="mailto:derrickmugisha168@gmail.com">
@@ -112,11 +106,14 @@ I'm actively looking to collaborate on projects that solve real-world problems, 
   <a href="https://www.instagram.com/d.e.r.r.1.c.k?igsh=zhywztg3m3q2ndjs">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
+  <a href="https://derr1ck.vercel.app/">
+    <img src="" alt="personal log" />
+  </a>
 </p>
 
----
 
-### 📊 GitHub Stats
+
+###  GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" />
@@ -124,15 +121,15 @@ I'm actively looking to collaborate on projects that solve real-world problems, 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=derrick-mugisha&theme=radical" alt="GitHub Streak" />
 </p>
 
----
 
-### ⚡ Fun Fact
+
+###  Fun Fact
 
 When I'm not coding, I love making music! It's my way of relaxing and staying creative.
 
 ---
 
-### 🏆 GitHub Trophies
+###  GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />

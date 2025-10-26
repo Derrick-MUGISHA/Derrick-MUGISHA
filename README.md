@@ -1,5 +1,5 @@
-<h1 align="center">   Hi, I'm Derrick MUGISHA</h1>
-<h3 align="center">   Full-Stack Developer |  Tech Innovator |  Problem Solver</h3>
+<h1 align="center">👋 Hi, I'm <span style="color:#00BFFF;">Derrick MUGISHA</span></h1>
+<h3 align="center">💻 Full-Stack Developer | 🚀 Tech Innovator | 🧩 Problem Solver</h3>
 
 <p align="center">
   <a href="https://github.com/Derrick-MUGISHA">
@@ -16,31 +16,36 @@
   </a>
 </p>
 
+---
 
+### 🧠 About Me
 
-<p align="center">
-  <!-- <a href="https://derrickmugisha.vercel.app/" target="_blank">
-    <img src="https://res.cloudinary.com/dvl1iht4u/image/upload/v1752015956/Screenshot_2025-07-09_010404_sqcu7s.png" 
-         alt="Derrick Mugisha Portfolio Banner" 
-         style="max-width: 100%; height: auto;" />
-  </a> -->
-</p>
+I'm a passionate **Full-Stack Developer** from **Rwanda**, dedicated to building **scalable, efficient, and impactful** digital solutions.  
+I specialize in crafting **seamless user experiences** and **robust backend systems** that tackle real-world problems.
 
-###  About Me
+Driven by innovation and creativity, I love transforming ideas into tangible products using **modern technologies**, **clean code**, and **smart design**.
 
-I'm a passionate Full-Stack Developer from Rwanda, dedicated to building scalable, efficient, and impactful digital solutions.
-I specialize in creating seamless user experiences and robust backend systems that solve real-world challenges.
+---
 
-I’m driven by innovation and love turning ideas into practical products through modern technologies, clean code, and creative problem-solving.
+### 🌍 Location
+**Rwanda**
 
-###  Location: Rwanda
+### 🎯 Focus Areas
+- Full-Stack Web Development  
+- API Design & Integration  
+- UI/UX Engineering  
+- Cloud-Ready Solutions  
 
-Focus Areas: Full-Stack Development, Web Apps, API Design, and UI/UX Integration
-Tech Stack: React, Next.js, TypeScript, Node.js, Express, Firebase, MongoDB, and more
-Goal: To contribute to open-source projects and build tools that make a difference
+### 🧰 Tech Stack
+**Frontend:** React, Next.js, TypeScript, Angular, Vue.js, Tailwind CSS  
+**Backend:** Node.js, Express, Java, Spring Boot, Python  
+**Databases:** MongoDB, MySQL, Firebase  
+**Cloud & DevOps:** AWS, Google Cloud, Docker, Kubernetes, GitHub Actions  
+**Mobile:** Flutter, React Native  
 
+---
 
-###  Tech Stack
+### ⚙️ Tech Stack Highlights
 
 #### **Frontend Development**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -49,18 +54,16 @@ Goal: To contribute to open-source projects and build tools that make a differen
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 #### **Backend Development**
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 #### **DevOps & Cloud**
@@ -74,24 +77,29 @@ Goal: To contribute to open-source projects and build tools that make a differen
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
+---
 
+### 📚 Currently Learning
 
-###  Currently Learning
+- Advanced Java & Spring Boot  
+- Flutter for Mobile Development  
+- Database Optimization & Scalability  
+- Security & Authentication Best Practices  
 
-- Advanced Java and Spring Boot  
-- Mobile Development with Flutter  
-- Database Optimization and Scaling  
-- Authentication and Security Best Practices  
+---
 
+### 🤝 Collaboration
 
+I'm open to collaborating on projects that make a **positive real-world impact**, especially in areas like:
+- 🌍 Social Good  
+- 🎓 Education  
+- 🏥 HealthTech  
 
-###  Collaboration Opportunities
+Let’s build something meaningful together!
 
-I'm actively looking to collaborate on projects that solve real-world problems, especially those focused on social impact, education, and healthcare. If you're working on something exciting, feel free to reach out!
+---
 
-
-
-###  How to Reach Me
+### 📫 How to Reach Me
 
 <p align="left">
   <a href="mailto:derrickmugisha168@gmail.com">
@@ -106,14 +114,11 @@ I'm actively looking to collaborate on projects that solve real-world problems, 
   <a href="https://www.instagram.com/d.e.r.r.1.c.k?igsh=zhywztg3m3q2ndjs">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="https://derr1ck.vercel.app/">
-    <img src="" alt="personal log" />
-  </a>
 </p>
 
+---
 
-
-###  GitHub Stats
+### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" />
@@ -121,16 +126,17 @@ I'm actively looking to collaborate on projects that solve real-world problems, 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=derrick-mugisha&theme=radical" alt="GitHub Streak" />
 </p>
 
-
-
-###  Fun Fact
-
-When I'm not coding, I love making music! It's my way of relaxing and staying creative.
-
 ---
 
-###  GitHub Trophies
-
+### 🏆 GitHub Trophies
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />
 </p>
+
+---
+
+### 🎵 Fun Fact
+
+When I’m not coding, I’m usually **making music** — it keeps my creativity flowing 🎧🎶
+
+---

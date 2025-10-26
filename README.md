@@ -16,14 +16,14 @@
   </a>
 </p>
 
----
+
 
 <p align="center">
-  <a href="https://derrickmugisha.vercel.app/" target="_blank">
+  <!-- <a href="https://derrickmugisha.vercel.app/" target="_blank">
     <img src="https://res.cloudinary.com/dvl1iht4u/image/upload/v1752015956/Screenshot_2025-07-09_010404_sqcu7s.png" 
          alt="Derrick Mugisha Portfolio Banner" 
          style="max-width: 100%; height: auto;" />
-  </a>
+  </a> -->
 </p>
 
 ---

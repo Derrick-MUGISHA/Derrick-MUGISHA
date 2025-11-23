@@ -1,12 +1,12 @@
-<h1 align="center">Hi, I'm <span style="color:#00BFFF;">Derrick MUGISHA</span></h1>
-<h3 align="center">Full-Stack Developer |  Tech Innovator |  Problem Solver</h3>
+<h1 align="center">Yo! I'm <span style="color:#00BFFF;">Derrick</span> 👋</h1>
+<h3 align="center">Full-Stack Dev who loves building cool stuff</h3>
 
 <p align="center">
   <a href="https://github.com/Derrick-MUGISHA">
     <img src="https://komarev.com/ghpvc/?username=derrick-mugisha&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
   </a>
   <a href="https://github.com/Derrick-MUGISHA?tab=repositories">
-    <img src="https://img.shields.io/badge/Projects-10+-brightgreen?style=flat&logo=github" alt="Projects" />
+    <img src="https://img.shields.io/badge/Projects-50+-brightgreen?style=flat&logo=github" alt="Projects" />
   </a>
   <a href="https://www.linkedin.com/in/mugisha-derrick-479788332/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn" />
@@ -15,39 +15,16 @@
     <img src="https://img.shields.io/badge/Email-Reach%20Out-red?style=flat&logo=gmail" alt="Email" />
   </a>
 </p>
+<div align="center">
+  <p>
+    I’m a Rwandan dev who spends way too much time turning ideas into web apps.  
+I like clean UI, fast backends, and anything that makes users go “wow, that’s smooth.”
+  </p>
+</div>
 
 ---
-
-###
-
-<h1 align="center">About Me </h1>
-
-I'm a passionate **Full-Stack Developer** from **Rwanda**, dedicated to building **scalable, efficient, and impactful** digital solutions.  
-I specialize in crafting **seamless user experiences** and **robust backend systems** that tackle real-world problems.
-
-Driven by innovation and creativity, I love transforming ideas into tangible products using **modern technologies**, **clean code**, and **smart design**.
-
----
-
-### Location
-**Rwanda**
-
-### Focus Areas
-- Full-Stack Web Development  
-- API Design & Integration  
-- UI/UX Engineering  
-- Cloud-Ready Solutions  
-
-### Tech Stack
-**Frontend:** React, Next.js, TypeScript, Angular, Vue.js, Tailwind CSS  
-**Backend:** Node.js, Express, Java, Spring Boot, Python  
-**Databases:** MongoDB, MySQL, Firebase  
-**Cloud & DevOps:** AWS, Google Cloud, Docker, Kubernetes, GitHub Actions  
-**Mobile:** Flutter, React Native  
-
----
-
-### ⚙️ Tech Stack Highlights
+<div align="center">
+<h3 align="center">Tech Stack Highlights</h3>
 
 #### **Frontend Development**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -78,12 +55,12 @@ Driven by innovation and creativity, I love transforming ideas into tangible pro
 #### **Mobile Development**
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+</div>
 
----
 
-### 📫 How to Reach Me
+<h3 align="center">How to Reach Me</h3>
 
-<p align="left">
+<p align="center">
   <a href="mailto:derrickmugisha168@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
@@ -100,7 +77,7 @@ Driven by innovation and creativity, I love transforming ideas into tangible pro
 
 ---
 
-### GitHub Stats
+<h3 align="center">GitHub Stats</h3>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" />
@@ -110,7 +87,7 @@ Driven by innovation and creativity, I love transforming ideas into tangible pro
 
 ---
 
-### GitHub Trophies
+<h3 align="center">GitHub Trophies</h3>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />
 </p>

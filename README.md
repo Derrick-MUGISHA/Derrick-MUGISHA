@@ -1,5 +1,5 @@
-<h1 align="center">Yo! I'm <span style="color:#00BFFF;">Derrick</span> 👋</h1>
-<h3 align="center">Full-Stack Dev who loves building cool stuff</h3>
+<h1 align="center">Yo! I'm <span style="color:#00BFFF;">Derrick</span> <span class="wave">👋</span></h1>
+<h3 align="center" style="color:#FF6347;">Full-Stack Dev who loves building cool stuff</h3>
 
 <p align="center">
   <a href="https://github.com/Derrick-MUGISHA">
@@ -15,18 +15,20 @@
     <img src="https://img.shields.io/badge/Email-Reach%20Out-red?style=flat&logo=gmail" alt="Email" />
   </a>
 </p>
+
 <div align="center">
   <p>
-    I’m a Rwandan dev who spends way too much time turning ideas into web apps.  
-I like clean UI, fast backends, and anything that makes users go “wow, that’s smooth.”
+    I’m a Rwandan dev who spends way too much time turning ideas into web apps.<br>
+    I like clean UI, fast backends, and anything that makes users go “wow, that’s smooth.”
   </p>
 </div>
 
 ---
-<div align="center">
-<h3 align="center">Tech Stack Highlights</h3>
 
-#### **Frontend Development**
+<div align="center">
+<h3 align="center" style="color:#32CD32;">Tech Stack Highlights</h3>
+
+#### <span style="color:#FF4500;">Frontend Development</span>
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -35,7 +37,7 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-#### **Backend Development**
+#### <span style="color:#1E90FF;">Backend Development</span>
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -45,20 +47,19 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-#### **DevOps & Cloud**
+#### <span style="color:#FFD700;">DevOps & Cloud</span>
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-#### **Mobile Development**
+#### <span style="color:#FF69B4;">Mobile Development</span>
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 </div>
 
-
-<h3 align="center">How to Reach Me</h3>
+<h3 align="center" style="color:#8A2BE2;">How to Reach Me</h3>
 
 <p align="center">
   <a href="mailto:derrickmugisha168@gmail.com">
@@ -75,21 +76,36 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
   </a>
 </p>
 
----
-
-<h3 align="center">GitHub Stats</h3>
+<h3 align="center" style="color:#FF4500;">GitHub Stats</h3>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <br><br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=derrick-mugisha&layout=compact&theme=radical" alt="Top Languages" />
+  <br><br>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=derrick-mugisha&theme=radical" alt="GitHub Streak" />
 </p>
 
----
-
-<h3 align="center">GitHub Trophies</h3>
+<h3 align="center" style="color:#32CD32;">GitHub Trophies</h3>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />
 </p>
 
 ---
+
+<style>
+.wave {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+  transform-origin: 70% 70%;
+}
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  45% { transform: rotate(14deg); }
+  60% { transform: rotate(-4deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+</style>

@@ -1,4 +1,4 @@
-<h1 align="center">Yo! I'm <span style="color:#00BFFF;">Derrick</span> 👋</h1>
+<h1 align="center">Yo! I'm <span style="color:#00BFFF;">Derrick</span> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" /></h1>
 <h3 align="center" style="color:#FF6347;">Full-Stack Dev who loves building cool stuff</h3>
 
 <p align="center">
@@ -26,6 +26,7 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
 <h3 align="center" style="color:#32CD32;">Tech Stack Highlights</h3>
 
 #### <span style="color:#FF4500;">Frontend Development</span>
+<p align="center">
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -33,8 +34,10 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+</p>
 
 #### <span style="color:#1E90FF;">Backend Development</span>
+<p align="center">
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -43,22 +46,26 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+</p>
 
 #### <span style="color:#FFD700;">DevOps & Cloud</span>
+<p align="center">
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+</p>
 
 #### <span style="color:#FF69B4;">Mobile Development</span>
+<p align="center">
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+</p>
 
 ---
 
 <h3 align="center" style="color:#8A2BE2;">How to Reach Me</h3>
-
 <p align="center">
   <a href="mailto:derrickmugisha168@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -77,7 +84,6 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
 ---
 
 <h3 align="center" style="color:#FF4500;">GitHub Stats</h3>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" /><br><br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=derrick-mugisha&layout=compact&theme=radical" alt="Top Languages" /><br><br>

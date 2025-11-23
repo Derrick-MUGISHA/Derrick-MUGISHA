@@ -18,7 +18,9 @@
 
 ---
 
-### About Me
+###
+
+<h1 align="center">About Me </h1>
 
 I'm a passionate **Full-Stack Developer** from **Rwanda**, dedicated to building **scalable, efficient, and impactful** digital solutions.  
 I specialize in crafting **seamless user experiences** and **robust backend systems** that tackle real-world problems.

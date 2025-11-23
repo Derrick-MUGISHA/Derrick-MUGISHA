@@ -1,5 +1,5 @@
-<h1 align="center">👋 Hi, I'm <span style="color:#00BFFF;">Derrick MUGISHA</span></h1>
-<h3 align="center">💻 Full-Stack Developer | 🚀 Tech Innovator | 🧩 Problem Solver</h3>
+<h1 align="center">Hi, I'm <span style="color:#00BFFF;">Derrick MUGISHA</span></h1>
+<h3 align="center">Full-Stack Developer |  Tech Innovator |  Problem Solver</h3>
 
 <p align="center">
   <a href="https://github.com/Derrick-MUGISHA">
@@ -18,7 +18,7 @@
 
 ---
 
-### 🧠 About Me
+### About Me
 
 I'm a passionate **Full-Stack Developer** from **Rwanda**, dedicated to building **scalable, efficient, and impactful** digital solutions.  
 I specialize in crafting **seamless user experiences** and **robust backend systems** that tackle real-world problems.
@@ -27,16 +27,16 @@ Driven by innovation and creativity, I love transforming ideas into tangible pro
 
 ---
 
-### 🌍 Location
+### Location
 **Rwanda**
 
-### 🎯 Focus Areas
+### Focus Areas
 - Full-Stack Web Development  
 - API Design & Integration  
 - UI/UX Engineering  
 - Cloud-Ready Solutions  
 
-### 🧰 Tech Stack
+### Tech Stack
 **Frontend:** React, Next.js, TypeScript, Angular, Vue.js, Tailwind CSS  
 **Backend:** Node.js, Express, Java, Spring Boot, Python  
 **Databases:** MongoDB, MySQL, Firebase  
@@ -79,26 +79,6 @@ Driven by innovation and creativity, I love transforming ideas into tangible pro
 
 ---
 
-### 📚 Currently Learning
-
-- Advanced Java & Spring Boot  
-- Flutter for Mobile Development  
-- Database Optimization & Scalability  
-- Security & Authentication Best Practices  
-
----
-
-### 🤝 Collaboration
-
-I'm open to collaborating on projects that make a **positive real-world impact**, especially in areas like:
-- 🌍 Social Good  
-- 🎓 Education  
-- 🏥 HealthTech  
-
-Let’s build something meaningful together!
-
----
-
 ### 📫 How to Reach Me
 
 <p align="left">
@@ -118,7 +98,7 @@ Let’s build something meaningful together!
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" />
@@ -128,15 +108,9 @@ Let’s build something meaningful together!
 
 ---
 
-### 🏆 GitHub Trophies
+### GitHub Trophies
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />
 </p>
-
----
-
-### 🎵 Fun Fact
-
-When I’m not coding, I’m usually **making music** — it keeps my creativity flowing 🎧🎶
 
 ---

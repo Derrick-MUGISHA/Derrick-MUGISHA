@@ -1,4 +1,4 @@
-<h1 align="center">Yo! I'm <span style="color:#00BFFF;">Derrick</span> <span class="wave">👋</span></h1>
+<h1 align="center">Yo! I'm <span style="color:#00BFFF;">Derrick</span> 👋</h1>
 <h3 align="center" style="color:#FF6347;">Full-Stack Dev who loves building cool stuff</h3>
 
 <p align="center">
@@ -17,15 +17,12 @@
 </p>
 
 <div align="center">
-  <p>
-    I’m a Rwandan dev who spends way too much time turning ideas into web apps.<br>
-    I like clean UI, fast backends, and anything that makes users go “wow, that’s smooth.”
-  </p>
+I’m a Rwandan dev who spends way too much time turning ideas into web apps.<br>
+I like clean UI, fast backends, and anything that makes users go “wow, that’s smooth.”
 </div>
 
 ---
 
-<div align="center">
 <h3 align="center" style="color:#32CD32;">Tech Stack Highlights</h3>
 
 #### <span style="color:#FF4500;">Frontend Development</span>
@@ -57,7 +54,8 @@
 #### <span style="color:#FF69B4;">Mobile Development</span>
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-</div>
+
+---
 
 <h3 align="center" style="color:#8A2BE2;">How to Reach Me</h3>
 
@@ -76,13 +74,13 @@
   </a>
 </p>
 
+---
+
 <h3 align="center" style="color:#FF4500;">GitHub Stats</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=derrick-mugisha&layout=compact&theme=radical" alt="Top Languages" />
-  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" /><br><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=derrick-mugisha&layout=compact&theme=radical" alt="Top Languages" /><br><br>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=derrick-mugisha&theme=radical" alt="GitHub Streak" />
 </p>
 
@@ -90,22 +88,3 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />
 </p>
-
----
-
-<style>
-.wave {
-  display: inline-block;
-  animation: wave 1.5s infinite;
-  transform-origin: 70% 70%;
-}
-@keyframes wave {
-  0% { transform: rotate(0deg); }
-  15% { transform: rotate(14deg); }
-  30% { transform: rotate(-8deg); }
-  45% { transform: rotate(14deg); }
-  60% { transform: rotate(-4deg); }
-  75% { transform: rotate(10deg); }
-  100% { transform: rotate(0deg); }
-}
-</style>

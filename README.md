@@ -68,12 +68,12 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
 
 <h3 align="center" style="color:#FF4500;">GitHub Stats</h3>
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Derrick-MUGISHA&show_icons=true&theme=radical" alt="GitHub Stats" /><br><br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Derrick-MUGISHA&layout=compact&theme=radical" alt="Top Languages" /><br><br>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Derrick-MUGISHA&theme=radical" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" /><br><br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=derrick-mugisha&layout=compact&theme=radical" alt="Top Languages" /><br><br>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=derrick-mugisha&theme=radical" alt="GitHub Streak" />
 </div>
 
 <h3 align="center" style="color:#32CD32;">GitHub Trophies</h3>
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Derrick-MUGISHA&theme=onedark" alt="GitHub Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=derrick-mugisha&theme=onedark" alt="GitHub Trophies" />
 </div>

@@ -3,7 +3,7 @@
 <h3 align="center" style="color:#FF6347; font:20px;">Full Stack Developer & Mentor and Facilitator who loves building cool stuff</h3>
 
 <p align="center">
-  <a href="https://github.com/Derrick-MUGISHA">
+  <a href="https://github.com/Derrick-MUGISHA">    
     <img src="https://komarev.com/ghpvc/?username=derrick-mugisha&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
   </a>
   <a href="https://github.com/Derrick-MUGISHA?tab=repositories">

@@ -64,8 +64,6 @@ I like clean UI, fast backends, and anything that makes users go “wow, that’
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
 </div>
-
-
 <h3 align="center" style="color:#FF4500;">GitHub Stats</h3>
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=derrick-mugisha&show_icons=true&theme=radical" alt="GitHub Stats" /><br><br>

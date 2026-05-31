@@ -1,4 +1,4 @@
-<h1 align="center">HI! I'm <span style="color:#00BFFF;">Derrick</span>  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" alt="waving hand" /></h1>
+<h1 align="center">HI ! I'm <span style="color:#00BFFF;">Derrick</span>  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" alt="waving hand" /></h1>
 
 <h3 align="center" style="color:#FF6347; font:20px;">Full Stack Developer & Mentor and Facilitator who loves building cool stuff</h3>
 

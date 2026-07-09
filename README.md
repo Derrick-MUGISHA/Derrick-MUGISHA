@@ -1,29 +1,21 @@
-derrick@mugisha -----------------------------------------------------.
-                                               . OS: .................................... Ubuntu, Windows 11, Android
-jjjjkkkkkkk%%%%%%%%%%%%@@@@@@%%%%%%%%%kkkkkk   . Host: ............................................... Kigali, Rwanda
-jjjkkkkkkk%%%%%%%%%%@%kj|iiij%%%%%%%%%%kkkkk   . Kernel: ....................... Full Stack Dev, Mentor & Facilitator
-jjjkkkkkk%%%%%%%%%%%i;ijk%ki::k%%%%%%%%%kkkk   . Shell: ................................. Turning ideas into web apps
-jjkkkkkkk%%%%%%%%%k,.;i|kM##@jjk%%%%%%%%kkkk   . IDE: ........................................ VS Code, IntelliJ IDEA
-jjkkkkkkk%%%%%%%%@: ,,,;k@g@ji:;k@%%%%%%kkkk   .
-jjkkkkkkk%%%%%%%%@. .,:;i|kj|i;,j@%%%%%%kkkk   . Languages.Programming: ........ JavaScript, TypeScript, Java, Python
-jjkkkkkkk%%%%%%%%|, ,,..,.,|...,k@%%%%%%kkkk   . Languages.Frontend: ............ React, Next.js, Tailwind, HTML, CSS
-jjkkkkkkk%%%%%%%%;:,,:j%%||g:,.,%%%%%%%kkkkk   . Languages.Backend: ................... Node.js, Express, Spring Boot
-jjjkkkkkk%%%%%%%%|:..,;k@i;j;;:,j@%%%%%kkkkk   . Languages.Mobile: ............................ Flutter, React Native
-jjjjkkkkkk%%%%%%%ki,. .:ii,..,.:%%%%%%kkkkkk   . Languages.Real: ............................... English, Kinyarwanda
-jjjjkkkkkkk%%%%%%j|:.  .:ii, .;j%%%%%kkkkkkk   .
-jjjjjkkkkkkk%%%%%j|,   ..,...;|j%%%%kkkkkkkk   . Databases: ................................ MongoDB, MySQL, Firebase
-jjjjjkkkkkkk%%%%j,....      ;||j%%%%kkkkkkkj   . Cloud.DevOps: ......................... AWS, GCP, Docker, Kubernetes
-jjjjjjkkkkkk%%%k:  .,,...   .ij%%%%%kkkkkkjj   . CI.CD: .............................................. GitHub Actions
-|jjjjjjkkkkj|;:.    .,,,.     ,;ijkkkkkkkjjj   .
-|||jjj|i:,.        .....          .,;i|jkjjj   . Hobbies.Software: .......................... Clean UI, Fast Backends
-||||i,                                 ,|jjj   . Hobbies.Human: ....................... Mentoring & Facilitating Devs
-|||:                                     |jj   .
-||;                                      ,j|   - Contact -----------------------------------------------------------.
-ii.                                       i|   . Email.Personal: ........................ derrickmugisha168@gmail.com
-i:                                        ,|   . LinkedIn: ................................ mugisha-derrick-479788332
-;                                          ;   . GitHub: ............................................ Derrick-MUGISHA
-.                                        ; ,   . Instagram: ........................................... d.e.r.r.1.c.k
-                        .                .     .
-                                               - GitHub Stats ------------------------------------------------------.
-                                               . Repos: ..................... 50+ | Web apps that make users go 'wow'
-                                               . Mission: .................................... Build. Mentor. Repeat.
+<!-- Terminal-style profile card (SVG so it always renders correctly on GitHub) -->
+<div align="center">
+  <img src="./terminal-profile.svg" alt="Derrick Mugisha — Full Stack Developer, Mentor & Facilitator" width="100%" />
+</div>
+<p align="center">
+  <a href="mailto:derrickmugisha169@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/derrickmugisha/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://derr1ck.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/d.e.r.r.1.c.k">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=derrick-mugisha&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>

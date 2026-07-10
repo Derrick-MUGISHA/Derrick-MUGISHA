@@ -13,6 +13,8 @@ import hashlib
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] # 'Derrick-MUGISHA'
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+RATE_LIMIT_SLEEPS = {'count': 0} # global, so one giant repository cannot sleep the job past its time limit
+RATE_LIMIT_SLEEPS_MAX = 2
 
 
 def daily_readme(birthday):
@@ -147,16 +149,17 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
     # I cannot use simple_request(), because I want to save the file before raising Exception.
     # GitHub's GraphQL API intermittently returns 502s on commit history queries, and a long
     # uncached run can exhaust the hourly rate limit (403). Retry 502s with backoff, and sleep
-    # through up to two rate-limit windows, instead of losing the whole run.
-    bad_gateway_retries, rate_limit_waits = 0, 0
+    # through rate-limit windows (at most RATE_LIMIT_SLEEPS_MAX per run), instead of losing
+    # the whole run.
+    bad_gateway_retries = 0
     while True:
         request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
         if request.status_code == 502 and bad_gateway_retries < 3:
             bad_gateway_retries += 1
             time.sleep(15 * bad_gateway_retries)
             continue
-        if request.status_code == 403 and rate_limit_waits < 2:
-            rate_limit_waits += 1
+        if request.status_code == 403 and RATE_LIMIT_SLEEPS['count'] < RATE_LIMIT_SLEEPS_MAX:
+            RATE_LIMIT_SLEEPS['count'] += 1
             reset = requests.get('https://api.github.com/rate_limit', headers=HEADERS).json()['resources']['graphql']['reset']
             wait = max(60, reset - time.time() + 15)
             print('Rate limited. Sleeping', round(wait/60), 'minutes until the window resets.', flush=True)
@@ -269,6 +272,12 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
                     data[index] = repo_hash + ' ' + str(edges[index]['node']['defaultBranchRef']['target']['history']['totalCount']) + ' ' + str(loc[2]) + ' ' + str(loc[0]) + ' ' + str(loc[1]) + '\n'
             except TypeError: # If the repo is empty
                 data[index] = repo_hash + ' 0 0 0 0\n'
+            except Exception: # This repo could not be scanned this run (persistent 502s or an exhausted
+                # rate limit). Leave its cached line unchanged so a later run retries it, and keep going
+                # so one stubborn repository does not block the LOC count of all the others.
+                # (Log the index, not the name: repository names of private repos must not leak into
+                # public Action logs.)
+                print('Repository', index + 1, 'of', len(edges), 'could not be scanned this run; skipping it.', flush=True)
     with open(filename, 'w') as f:
         f.writelines(cache_comment)
         f.writelines(data)

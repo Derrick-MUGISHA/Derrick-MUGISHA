@@ -14,7 +14,31 @@ HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] # 'Derrick-MUGISHA'
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 RATE_LIMIT_SLEEPS = {'count': 0} # global, so one giant repository cannot sleep the job past its time limit
-RATE_LIMIT_SLEEPS_MAX = 2
+RATE_LIMIT_SLEEPS_MAX = 3
+
+
+def github_graphql_post(query, variables):
+    """
+    POSTs a query to the GraphQL API and returns the response.
+    GitHub intermittently returns 502s on heavy queries, and long uncached runs exhaust the
+    hourly rate limit (403). Retry 502s with backoff, and sleep through rate-limit windows
+    (a shared budget of RATE_LIMIT_SLEEPS_MAX sleeps per run), instead of failing outright.
+    """
+    bad_gateway_retries = 0
+    while True:
+        request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables': variables}, headers=HEADERS)
+        if request.status_code == 502 and bad_gateway_retries < 3:
+            bad_gateway_retries += 1
+            time.sleep(15 * bad_gateway_retries)
+            continue
+        if request.status_code == 403 and RATE_LIMIT_SLEEPS['count'] < RATE_LIMIT_SLEEPS_MAX:
+            RATE_LIMIT_SLEEPS['count'] += 1
+            reset = requests.get('https://api.github.com/rate_limit', headers=HEADERS).json()['resources']['graphql']['reset']
+            wait = max(60, reset - time.time() + 15)
+            print('Rate limited. Sleeping', round(wait/60), 'minutes until the window resets.', flush=True)
+            time.sleep(wait)
+            continue
+        return request
 
 
 def daily_readme(birthday):
@@ -46,7 +70,7 @@ def simple_request(func_name, query, variables):
     """
     Returns a request, or raises an Exception if the response does not succeed.
     """
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
+    request = github_graphql_post(query, variables)
     if request.status_code == 200:
         return request
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
@@ -146,26 +170,8 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
         }
     }'''
     variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
-    # I cannot use simple_request(), because I want to save the file before raising Exception.
-    # GitHub's GraphQL API intermittently returns 502s on commit history queries, and a long
-    # uncached run can exhaust the hourly rate limit (403). Retry 502s with backoff, and sleep
-    # through rate-limit windows (at most RATE_LIMIT_SLEEPS_MAX per run), instead of losing
-    # the whole run.
-    bad_gateway_retries = 0
-    while True:
-        request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
-        if request.status_code == 502 and bad_gateway_retries < 3:
-            bad_gateway_retries += 1
-            time.sleep(15 * bad_gateway_retries)
-            continue
-        if request.status_code == 403 and RATE_LIMIT_SLEEPS['count'] < RATE_LIMIT_SLEEPS_MAX:
-            RATE_LIMIT_SLEEPS['count'] += 1
-            reset = requests.get('https://api.github.com/rate_limit', headers=HEADERS).json()['resources']['graphql']['reset']
-            wait = max(60, reset - time.time() + 15)
-            print('Rate limited. Sleeping', round(wait/60), 'minutes until the window resets.', flush=True)
-            time.sleep(wait)
-            continue
-        break
+    # I cannot use simple_request(), because I want to save the file before raising Exception
+    request = github_graphql_post(query, variables)
     if request.status_code == 200:
         if request.json()['data']['repository']['defaultBranchRef'] != None: # Only count commits if repo isn't empty
             return loc_counter_one_repo(owner, repo_name, data, cache_comment, request.json()['data']['repository']['defaultBranchRef']['target']['history'], addition_total, deletion_total, my_commits)

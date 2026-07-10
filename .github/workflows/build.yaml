@@ -5,6 +5,7 @@ on:
       - main
   schedule:
     - cron: "0 4 * * *"
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,6 +34,9 @@ jobs:
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
       - name: Commit
+        # run even if today.py failed: it saves the partially built LOC cache,
+        # so the next run resumes instead of restarting from zero
+        if: success() || failure()
         run: |-
           git add .
           git diff

@@ -43,4 +43,7 @@ jobs:
           git config --global user.email "github-actions-bot@derrick-mugisha.github.io"
           git config --global user.name "Derrick-MUGISHA/GitHub-Actions-Bot"
           git commit -m "Updated README" -a || echo "No changes to commit"
+          # main may have moved while the (long) stats scan ran; rebase our
+          # commit onto the new tip instead of letting the push get rejected
+          git pull --rebase origin main
           git push

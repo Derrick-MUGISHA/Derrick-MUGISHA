@@ -12,7 +12,7 @@ import hashlib
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] # 'Derrick-MUGISHA'
-QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'pr_issue_getter': 0}
 RATE_LIMIT_SLEEPS = {'count': 0} # global, so one giant repository cannot sleep the job past its time limit
 RATE_LIMIT_SLEEPS_MAX = 3
 
@@ -330,7 +330,7 @@ def stars_counter(data):
     return total_stars
 
 
-def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data, pr_data, issue_data, total_contrib_data):
     """
     Parse SVG files and update elements with my age, commits, stars, repositories, and lines written
     """
@@ -345,6 +345,9 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     justify_format(root, 'loc_data', loc_data[2], 10)
     justify_format(root, 'loc_add', loc_data[0])
     justify_format(root, 'loc_del', loc_data[1], 7)
+    justify_format(root, 'pr_data', pr_data, 5)
+    justify_format(root, 'issue_data', issue_data, 5)
+    justify_format(root, 'total_contrib_data', total_contrib_data, 8)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
@@ -423,6 +426,41 @@ def follower_getter(username):
     return int(request.json()['data']['user']['followers']['totalCount'])
 
 
+def pr_issue_getter(username):
+    """
+    Returns the total number of pull requests and issues opened by the user
+    """
+    query_count('pr_issue_getter')
+    query = '''
+    query($login: String!){
+        user(login: $login) {
+            pullRequests {
+                totalCount
+            }
+            issues {
+                totalCount
+            }
+        }
+    }'''
+    request = simple_request(pr_issue_getter.__name__, query, {'login': username})
+    return int(request.json()['data']['user']['pullRequests']['totalCount']), int(request.json()['data']['user']['issues']['totalCount'])
+
+
+def total_contributions(start_date):
+    """
+    Counts every contribution since the account was created, one year at a time
+    (contributionsCollection can only cover a one-year window per query)
+    """
+    total = 0
+    period_start = start_date
+    now = datetime.datetime.today()
+    while period_start < now:
+        period_end = min(period_start + relativedelta.relativedelta(years=1), now)
+        total += graph_commits(period_start.strftime('%Y-%m-%dT%H:%M:%SZ'), period_end.strftime('%Y-%m-%dT%H:%M:%SZ'))
+        period_start = period_end
+    return total
+
+
 def query_count(funct_id):
     """
     Counts how many times the GitHub GraphQL API is called
@@ -473,15 +511,17 @@ if __name__ == '__main__':
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
+    (pr_data, issue_data), pr_issue_time = perf_counter(pr_issue_getter, USER_NAME)
+    total_contrib_data, total_contrib_time = perf_counter(total_contributions, datetime.datetime.strptime(acc_date, '%Y-%m-%dT%H:%M:%SZ'))
 
     for index in range(len(total_loc)-1): total_loc[index] = '{:,}'.format(total_loc[index]) # format added, deleted, and total LOC
 
-    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
-    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+    svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], pr_data, issue_data, total_contrib_data)
+    svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1], pr_data, issue_data, total_contrib_data)
 
     # move cursor to override 'Calculation times:' with 'Total function time:' and the total function time, then move cursor back
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
-        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time)),
+        '{:<21}'.format('Total function time:'), '{:>11}'.format('%.4f' % (user_time + age_time + loc_time + commit_time + star_time + repo_time + contrib_time + follower_time + pr_issue_time + total_contrib_time)),
         ' s \033[E\033[E\033[E\033[E\033[E\033[E\033[E\033[E', sep='')
 
     print('Total GitHub GraphQL API calls:', '{:>3}'.format(sum(QUERY_COUNT.values())))

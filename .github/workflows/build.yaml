@@ -44,6 +44,8 @@ jobs:
           git config --global user.name "Derrick-MUGISHA/GitHub-Actions-Bot"
           git commit -m "Updated README" -a || echo "No changes to commit"
           # main may have moved while the (long) stats scan ran; rebase our
-          # commit onto the new tip instead of letting the push get rejected
-          git pull --rebase origin main
+          # commit onto the new tip instead of letting the push get rejected.
+          # -X theirs: on conflicts (overlapping runs both rewrite the cache
+          # and SVGs), keep this run's freshly generated files
+          git pull --rebase -X theirs origin main
           git push

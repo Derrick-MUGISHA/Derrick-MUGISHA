@@ -42,7 +42,12 @@ jobs:
           git diff
           git config --global user.email "github-actions-bot@derrick-mugisha.github.io"
           git config --global user.name "Derrick-MUGISHA/GitHub-Actions-Bot"
-          git commit -m "Updated README" -a || echo "No changes to commit"
+          # credit the account the stats belong to, so the bot commit shows up
+          # as Derrick's contribution too
+          git commit -a \
+            -m "Updated README" \
+            -m "Co-authored-by: Derrick-MUGISHA <188050182+Derrick-MUGISHA@users.noreply.github.com>" \
+            || echo "No changes to commit"
           # main may have moved while the (long) stats scan ran; rebase our
           # commit onto the new tip instead of letting the push get rejected.
           # -X theirs: on conflicts (overlapping runs both rewrite the cache

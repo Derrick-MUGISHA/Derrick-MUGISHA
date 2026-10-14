@@ -31,7 +31,8 @@ jobs:
       - name: Update README file
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USER_NAME: ${{ secrets.USER_NAME }}
+          GITHUB_TOKEN: ${{ github.token }}
+          USER_NAME: ${{ secrets.USER_NAME || github.repository_owner }}
         run: python today.py
       - name: Commit
         # run even if today.py failed: it saves the partially built LOC cache,

@@ -10,8 +10,13 @@ import hashlib
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
-USER_NAME = os.environ['USER_NAME'] # 'Derrick-MUGISHA'
+ACCESS_TOKEN = os.getenv('ACCESS_TOKEN') or os.getenv('GITHUB_TOKEN')
+if not ACCESS_TOKEN:
+    raise RuntimeError('ACCESS_TOKEN or GITHUB_TOKEN environment variable must be set')
+HEADERS = {'authorization': 'token '+ ACCESS_TOKEN}
+USER_NAME = os.getenv('USER_NAME') or os.getenv('GITHUB_REPOSITORY_OWNER')
+if not USER_NAME:
+    raise RuntimeError('USER_NAME or GITHUB_REPOSITORY_OWNER environment variable must be set')
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'pr_issue_getter': 0}
 RATE_LIMIT_SLEEPS = {'count': 0} # global, so one giant repository cannot sleep the job past its time limit
 RATE_LIMIT_SLEEPS_MAX = 3
@@ -25,12 +30,20 @@ def github_graphql_post(query, variables):
     (a shared budget of RATE_LIMIT_SLEEPS_MAX sleeps per run), instead of failing outright.
     """
     bad_gateway_retries = 0
+    bad_credential_fallback_used = False
     while True:
         request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables': variables}, headers=HEADERS)
         if request.status_code == 502 and bad_gateway_retries < 3:
             bad_gateway_retries += 1
             time.sleep(15 * bad_gateway_retries)
             continue
+        if request.status_code == 401 and not bad_credential_fallback_used:
+            fallback_token = os.getenv('GITHUB_TOKEN')
+            if fallback_token and HEADERS.get('authorization') != 'token ' + fallback_token:
+                print('ACCESS_TOKEN rejected; retrying with GITHUB_TOKEN.', flush=True)
+                HEADERS['authorization'] = 'token ' + fallback_token
+                bad_credential_fallback_used = True
+                continue
         if request.status_code == 403 and RATE_LIMIT_SLEEPS['count'] < RATE_LIMIT_SLEEPS_MAX:
             RATE_LIMIT_SLEEPS['count'] += 1
             reset = requests.get('https://api.github.com/rate_limit', headers=HEADERS).json()['resources']['graphql']['reset']
